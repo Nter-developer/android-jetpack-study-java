@@ -13,8 +13,13 @@
         android:theme="@style/Theme.StudyWithJava"
         tools:targetApi="31">
         <activity
-            android:name="com.coding.studywithjava.start.presentation.activity.StartActivity"
-            android:exported="false" />
+            android:name="com.coding.studywithjava.defaultdomain.presentation.activity.DefaultActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
