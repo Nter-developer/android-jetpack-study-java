@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="round_button_horizontal_padding">15dp</dimen>
+    <dimen name="round_button_corner_radius">10000dp</dimen>
+    <dimen name="rectangle_button_corner_radius">5dp</dimen>
+</resources>
