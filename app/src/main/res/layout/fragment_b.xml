@@ -5,7 +5,7 @@
     tools:context="com.coding.studywithjava.defaultdomain.presentation.fragment.BFragment">
 
     <Button
-        android:id="@+id/button_main_default"
+        android:id="@+id/button_b_its_jpstdy"
         android:background="@drawable/style_button_rectangle_study"
         android:textColor="@color/white"
         android:text="@string/its_jpstdy"

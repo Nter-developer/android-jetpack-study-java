@@ -5,7 +5,7 @@
     tools:context="com.coding.studywithjava.defaultdomain.presentation.fragment.CFragment">
 
     <Button
-        android:id="@+id/button_main_default"
+        android:id="@+id/button_c_back_to_first"
         android:background="@drawable/style_button_rectangle_study"
         android:textColor="@color/white"
         android:text="@string/back_to_first"
