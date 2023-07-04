@@ -3,4 +3,6 @@
     <dimen name="round_button_horizontal_padding">15dp</dimen>
     <dimen name="round_button_corner_radius">10000dp</dimen>
     <dimen name="rectangle_button_corner_radius">5dp</dimen>
+    <dimen name="font_size_medium">20sp</dimen>
+    <dimen name="forefather_layout_padding">20dp</dimen>
 </resources>
