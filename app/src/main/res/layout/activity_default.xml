@@ -2,21 +2,60 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/forefather_layout_padding"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.coding.studywithjava.defaultdomain.presentation.activity.DefaultActivity">
 
-    <!-- Default main button. -->
-    <Button
-        android:id="@+id/button_main_default"
-        android:background="@drawable/style_button_rectangle_study"
-        android:textColor="@color/white"
-        android:text="@string/app_name"
+    <ImageView
+        android:id="@+id/image_view_default_top"
+        android:background="@drawable/style_stroke_medium"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linear_layout_default_button_container"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
 
+    <LinearLayout
+        android:id="@+id/linear_layout_default_button_container"
+        app:layout_constraintTop_toBottomOf="@+id/image_view_default_top"
+        app:layout_constraintBottom_toTopOf="@id/image_view_default_bottom"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_default_up"
+            android:background="@color/study_gray"
+            android:text="@string/up"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/button_default_down"
+            android:background="@color/study_gray"
+            android:text="@string/down"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_view_default_bottom"
+        android:background="@drawable/style_stroke_medium"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout_default_button_container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
