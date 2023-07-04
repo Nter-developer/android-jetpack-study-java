@@ -1,4 +1,4 @@
-package com.coding.studywithjava.defaultdomain.presentation.fragment;
+package com.coding.studywithjava.imageview.presentation.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
