@@ -34,7 +34,7 @@ public class ImageViewActivity extends AppCompatActivity implements View.OnClick
         buttonUP = (Button) findViewById(R.id.button_default_up);
         buttonDOWN = (Button) findViewById(R.id.button_default_down);
         buttonLight = (Button) findViewById(R.id.button_default_light_on_off);
-        imageViewTop = (ImageView) findViewById(R.id.image_view_default_top);
+        imageViewTop = (ImageView) findViewById(R.id.image_view_image_view_top);
         imageViewBottom = (ImageView) findViewById(R.id.image_view_default_bottom);
         // Set Listener to components
         buttonUP.setOnClickListener(this);
